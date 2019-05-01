@@ -17,9 +17,9 @@ app.listen(port, () => {
 });
 
 
-//app.get('/', (req, res) => {
-//    res.send('Welcome to my api');
-//})
+app.get('/', (req, res) => {
+    res.send('Welcome to my api');
+})
 
 app.post('/', (req,res) => {
     var data = req.body;
