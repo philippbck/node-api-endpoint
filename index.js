@@ -35,7 +35,7 @@ var smtpTransport = nodemailer.createTransport({
 
 var mailOptions = {
     from: data.email,
-    to: 'philipp_buck_@gmx.de',
+    to: '<targetMailAddress>',
     subject: 'Test Mail',
     html: `<p>${data.name}</p>
         <p>${data.email}</p>
