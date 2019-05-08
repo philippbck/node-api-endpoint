@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
 app.listen(port, () => {
-    console.log('We are live on port 4444');
+    console.log('Port 4444 works!');
 });
 
 
